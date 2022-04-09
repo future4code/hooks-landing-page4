@@ -21,6 +21,16 @@ header > h1{
 .letra-branca{
     color: white;
 }
+
+button{
+    color: #ff5c5c;
+    box-sizing: border-box;
+    border: 50px black;
+    background-color: white;
+    font-size: larger;
+    padding: 10px;
+}
+
 /*Estilização do menu*/
 nav{
     display: flex;
@@ -34,11 +44,15 @@ nav>div{
 }
 
 /*Estilização main*/
+main{
 
+}
 /*Estilização quem somos*/
 
 /*Estilização nossos produtos*/
-
+.nossos-produtos{
+    
+}
 /*Estilização nosso time*/
 
 /*Estilização contato*/
