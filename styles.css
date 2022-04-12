@@ -84,6 +84,19 @@ main{
     height: 350px;
 }
 /*Estilização nosso time*/
+.tituloms{
+    text-align: center;
+    font-size: 25px;
+}
+
+.nosso-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+
+}
 
 /*Estilização contato*/
 
