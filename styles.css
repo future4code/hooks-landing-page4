@@ -50,8 +50,38 @@ main{
 /*Estilização quem somos*/
 
 /*Estilização nossos produtos*/
-.nossos-produtos{
-    
+.planos{
+    display: flex;
+    flex-direction: row;
+    background: #ff5c5c;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+}
+.basico {
+    border: 1px solid black;
+    background-color: white;
+}
+.intermediario{
+    border: 1px solid black;
+    background-color: white;
+}
+.luxo{
+    border: 1px solid black;
+    background-color: white;
+}
+.basico>img{
+    width: 400px;
+    height: 350px;
+}
+.intermediario>img{
+    width: 400px;
+    height: 350px;
+}
+.luxo>img{
+    width: 400px;
+    height: 350px;
 }
 /*Estilização nosso time*/
 
