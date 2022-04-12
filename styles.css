@@ -24,8 +24,7 @@ header > h1{
 
 button{
     color: #ff5c5c;
-    box-sizing: border-box;
-    border: 50px black;
+    border: 1px solid #ff5c5cab;
     background-color: white;
     font-size: larger;
     padding: 10px;
@@ -45,7 +44,7 @@ nav>div{
 
 /*Estilização main*/
 main{
-
+   
 }
 /*Estilização quem somos*/
 
@@ -54,35 +53,41 @@ main{
     display: flex;
     flex-direction: row;
     background: #ff5c5c;
-    align-self: center;
-    align-items: center;
-    justify-items: center;
-    padding: 50px;
+    padding: 2%;
+    justify-content: space-around;
+    background-image:url(fundo.jpg);
 }
 .basico {
-    border: 1px solid black;
+    border: 1px solid #ff5c5c;
     background-color: white;
+    border-radius: 15%;
+    padding: 30px;
 }
 .intermediario{
-    border: 1px solid black;
+    border: 1px solid #ff5c5c;
     background-color: white;
+    border-radius: 15%;
+    padding: 30px;
 }
 .luxo{
-    border: 1px solid black;
+    border: 1px solid #ff5c5c;
     background-color: white;
+    border-radius: 15%;
+    padding: 30px;
 }
 .basico>img{
-    width: 400px;
-    height: 350px;
+    width: 380px;
+    height: 250px;
 }
 .intermediario>img{
-    width: 400px;
-    height: 350px;
+    width: 380px;
+    height: 250px;
 }
 .luxo>img{
-    width: 400px;
-    height: 350px;
+    width: 380px;
+    height: 250px;
 }
+
 /*Estilização nosso time*/
 .tituloms{
     text-align: center;
@@ -93,12 +98,31 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-
-
+    align-self: center;
 }
 
+.Giulia img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+}
+.Mizael img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.Nicole img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
 /*Estilização contato*/
 
 
 /*Estilização footer*/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    background-color: #ff5c5c;
+}
