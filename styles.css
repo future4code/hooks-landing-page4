@@ -23,12 +23,21 @@ header > h1{
 }
 
 button{
-    color: #ff5c5c;
+    color: #000000;
     border: 1px solid #ff5c5cab;
     background-color: white;
     font-size: larger;
     padding: 10px;
+    border: solid black;
+    border-radius: 15px;
 }
+
+button:hover
+{
+    background-color: gray;
+}
+
+
 
 /*Estilização do menu*/
 nav{
