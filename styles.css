@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
     font-family: sans-serif;
 }
 /* Estilização Header*/
@@ -30,13 +31,16 @@ button{
     padding: 10px;
     border: solid black;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 button:hover
 {
     background-color: gray;
 }
-
+a{
+    color: inherit;
+}
 
 
 /*Estilização do menu*/
@@ -46,6 +50,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    color: white;
 }
 nav>div{
     margin: 10px;
@@ -58,13 +63,17 @@ main{
 /*Estilização quem somos*/
 
 /*Estilização nossos produtos*/
+.nossos-produtos{
+    background-image:url(fundo.jpg);
+    
+}
 .planos{
     display: flex;
     flex-direction: row;
-    background: #ff5c5c;
     padding: 2%;
     justify-content: space-around;
-    background-image:url(fundo.jpg);
+    
+    text-align: center;
 }
 .basico {
     border: 1px solid #ff5c5c;
@@ -96,6 +105,7 @@ main{
     width: 380px;
     height: 250px;
 }
+
 
 /*Estilização nosso time*/
 .tituloms{
