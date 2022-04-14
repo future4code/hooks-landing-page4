@@ -55,16 +55,9 @@ nav{
 nav>div{
     margin: 10px;
 }
-
-/*Estilização main*/
-main{
-   
-}
-/*Estilização quem somos*/
-
 /*Estilização nossos produtos*/
 .nossos-produtos{
-    background-image:url(fundo.jpg);
+    background-color: white;
     
 }
 .planos{
@@ -76,20 +69,20 @@ main{
     text-align: center;
 }
 .basico {
-    border: 1px solid #ff5c5c;
-    background-color: white;
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
     border-radius: 15%;
     padding: 30px;
 }
 .intermediario{
-    border: 1px solid #ff5c5c;
-    background-color: white;
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
     border-radius: 15%;
     padding: 30px;
 }
 .luxo{
-    border: 1px solid #ff5c5c;
-    background-color: white;
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
     border-radius: 15%;
     padding: 30px;
 }
@@ -104,6 +97,40 @@ main{
 .luxo>img{
     width: 380px;
     height: 250px;
+}
+.tituloms{
+    padding-top: 10px;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold ;
+    text-align: center;
+}
+
+/*Estilização vantagens*/
+.vantagens{
+    background-color: #ff5c5c;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20PX;
+    justify-content: space-between;
+    row-gap: 10%;
+    padding-inline-end: 20%;
+    padding-inline-start: 20%;
+    padding-bottom: 5%;
+    
+}
+.vantagem{
+    text-align: center;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #ff5c5c;
+    color: white;
+    border-radius: 15px;
 }
 
 
