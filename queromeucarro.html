@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quero meu carro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class ='logo'><i class="fas-fa-car"></i> 
+            <h1>4CARS</h1>
+            <h3 class="letra-branca">NOSSO CARRO, SUA CHANCE</h3>
+        </div>
+        <nav class="menu">
+            <div><a href="index.html">Home</a></div>
+            <div> <a href="quemsomos.html">Quem Somos</a></div>
+            <div>Nossos Planos</div>
+            <div>Nosso Time</div>
+            <div>Contato</div>
+            <div class="grifado"><a href="queromeucarro.html"><button>Quero meu carro!</button></a></div>
+        </nav>
+    </header>
+
+    <div class ="container">
+        <div class="form-image">
+            <img src="./undraw_map_re_60yf.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="titulo">
+                        <h1>Reserve seu carro</h1>
+                    
+                </div>
+                <div class="input-grupo">
+                    <div class="input-box">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" nome="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" nome="cidade" placeholder="Digite sua cidade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="idade">Idade</label>
+                        <input id="idade" type="number" nome="idade" placeholder="anos" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="text" nome="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="number" nome="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                </div>
+                <div class="tipo-de-carro">
+                    <div class="tipo-titulo">
+                        <h6>Tipo de carro</h6>
+                    </div>
+                    <div class="tipo-grupo">
+                        <div class="tipo-input">
+                            <input type="radio" id="basico" nome="tipo">
+                            <label for="basico">Básico</label>
+                        </div>
+                        <div class="tipo-grupo">
+                            <div class="tipo-input">
+                                <input type="radio" id="intermediario" nome="tipo">
+                                <label for="intermediario">Intermediário</label>
+                            </div>
+                            <div class="tipo-grupo">
+                                <div class="tipo-input">
+                                    <input type="radio" id="luxo" nome="tipo">
+                                    <label for="luxo">Luxo</label>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botão-carro">
+                <button>Quero meu carro</button>
+            </div>
+            </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
