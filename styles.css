@@ -55,6 +55,12 @@ nav{
 nav>div{
     margin: 10px;
 }
+/*Estilização capa*/
+.capa{
+   background-color: #000000;
+margin: 0 auto;
+    
+}
 /*Estilização nossos produtos*/
 .nossos-produtos{
     background-color: white;
@@ -101,7 +107,7 @@ nav>div{
 .tituloms{
     padding-top: 10px;
     font-size: xx-large;
-    color: white;
+    color: #ff5c5c;
     font-weight: bold ;
     text-align: center;
 }
@@ -162,8 +168,33 @@ nav>div{
     height: 200px;
     border-radius: 100%;
 }
-/*Estilização contato*/
+/*Estilização FAQ*/
+#faq-titulo{
+    background-color: #ff5c5c;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold ;
+    text-align: center;
+    
+}
 
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pergunta{
+    background-color: #ff5c5c;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+   
+}
+.resposta{
+    background-color: #ff5c5c;
+    padding: 5px;
+}
 /*Estilização quem-somos*/
 
 .quem-somos{
@@ -214,9 +245,30 @@ nav>div{
 
 /*Estilização footer*/
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    background-color: #ff5c5c;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: baseline;
+    background-color: black;
+    color: white;
 }
-
+.coluna1{
+    display: grid;
+    flex-direction: column;
+    margin: 10px;
+}
+.coluna1>h4{
+   padding: 10px;
+}
+.coluna1>h6{
+    padding: 2px;
+ }
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+}
+.redes-sociais{
+    padding: 2px;
+}
