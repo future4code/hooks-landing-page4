@@ -281,15 +281,21 @@ footer{
     }
     .planos{
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
+        justify-content: space-between;
+        
     }
     .carro{
        margin: auto;
+       justify-content: space-between;
+    }
+    .basico, .intermediario,.luxo{
+        margin: 10px;
     }
     .basico>img{
         width: 80%;
         height: 80%;
-        margin: auto;
+        
     }
     .intermediario>img{
         margin: auto;
