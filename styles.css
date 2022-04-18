@@ -242,7 +242,6 @@ margin: 0 auto;
     font-size: xx-large;
 }
 
-
 /*Estilização footer*/
 footer{
     display: flex;
@@ -253,9 +252,10 @@ footer{
     color: white;
 }
 .coluna1{
-    display: grid;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     margin: 10px;
+    justify-content: center;
 }
 .coluna1>h4{
    padding: 10px;
@@ -271,4 +271,73 @@ footer{
 }
 .redes-sociais{
     padding: 2px;
+}
+
+/*Responsividade*/
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .planos{
+        display: flex;
+       flex-direction: column;
+    }
+    .carro{
+       margin: auto;
+    }
+    .basico>img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+    .intermediario>img{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+    }
+    .luxo>img{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+    .nosso-time{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .Nicole, .Mizael, .Giulia{
+        align-self: center;
+    }
+    .Nicole>h1,h3{
+        text-align: center;
+    }
+    .Mizael>h1,h3{
+        text-align: center;
+    }
+    .Giulia>h1,h3{
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .capa{
+        display: none;
+    }
+    .capa-mobile>img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-device-width:1200px) {
+    .capa-mobile{
+        display: none;
+    }
 }

@@ -69,13 +69,14 @@ nav>div{
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0,0,0 .212);
+    margin: auto;
 }
 .form-image {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: palegoldenrod;
+    background-color: gray;
     padding: 1rem;
 }
 .form-image img{
@@ -111,4 +112,74 @@ nav>div{
 .input-box {
     display: flex;
     flex-direction: column;
+}
+
+/*Estilização footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: baseline;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.coluna1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.coluna1>h4{
+   padding: 10px;
+}
+.coluna1>h6{
+    padding: 2px;
+ }
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+}
+.redes-sociais{
+    padding: 2px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+    *{
+        align-items: center;
+        margin: auto;
+        padding: 0px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 100vw;
+        margin: 0;
+    }
+    .form-image>img{
+       width: 100vw;
+       margin: 0 auto;
+    }
+    .form-header{
+        width: 100%;
+        margin: auto;
+    }
+    .form{
+        margin: 0px;
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
 }
