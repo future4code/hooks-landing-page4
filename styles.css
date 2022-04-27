@@ -1,0 +1,349 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* Estilização Header*/
+header{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ff5c5c;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+header > h1{
+    margin: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.letra-branca{
+    color: white;
+}
+
+button{
+    color: #000000;
+    border: 1px solid #ff5c5cab;
+    background-color: white;
+    font-size: larger;
+    padding: 10px;
+    border: solid black;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+button:hover
+{
+    background-color: gray;
+}
+a{
+    color: inherit;
+}
+
+
+/*Estilização do menu*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+nav>div{
+    margin: 10px;
+}
+/*Estilização capa*/
+.capa{
+   background-color: #000000;
+margin: 0 auto;
+    
+}
+/*Estilização nossos produtos*/
+.nossos-produtos{
+    background-color: white;
+    
+}
+.planos{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: space-around;
+    
+    text-align: center;
+}
+.basico {
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
+    border-radius: 15%;
+    padding: 30px;
+}
+.intermediario{
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
+    border-radius: 15%;
+    padding: 30px;
+}
+.luxo{
+    border: 5px solid #ff5c5c;
+    background-color: #ff5c5c;
+    border-radius: 15%;
+    padding: 30px;
+}
+.basico>img{
+    width: 380px;
+    height: 250px;
+}
+.intermediario>img{
+    width: 380px;
+    height: 250px;
+}
+.luxo>img{
+    width: 380px;
+    height: 250px;
+}
+.tituloms{
+    padding-top: 10px;
+    font-size: xx-large;
+    color: #ff5c5c;
+    font-weight: bold ;
+    text-align: center;
+}
+
+/*Estilização vantagens*/
+.vantagens{
+    background-color: #ff5c5c;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20PX;
+    justify-content: space-between;
+    row-gap: 10%;
+    padding-inline-end: 20%;
+    padding-inline-start: 20%;
+    padding-bottom: 5%;
+    
+}
+.vantagem{
+    text-align: center;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #ff5c5c;
+    color: white;
+    border-radius: 15px;
+}
+
+
+/*Estilização nosso time*/
+.tituloms{
+    text-align: center;
+    font-size: 25px;
+}
+
+.nosso-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.Giulia img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+}
+.Mizael img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.Nicole img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+/*Estilização FAQ*/
+#faq-titulo{
+    background-color: #ff5c5c;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold ;
+    text-align: center;
+    
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pergunta{
+    background-color: #ff5c5c;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+   
+}
+.resposta{
+    background-color: #ff5c5c;
+    padding: 5px;
+}
+/*Estilização quem-somos*/
+
+.quem-somos{
+    padding-top:  100px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    text-transform: uppercase;
+}
+
+.quem-somos > p{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.quem-somos > h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.nossa-missao
+{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    text-transform: uppercase;
+}
+
+
+.nossa-missao > p{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nossa-missao > h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+/*Estilização footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: baseline;
+    background-color: black;
+    color: white;
+}
+.coluna1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+}
+.coluna1>h4{
+   padding: 10px;
+}
+.coluna1>h6{
+    padding: 2px;
+ }
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+}
+.redes-sociais{
+    padding: 2px;
+}
+
+/*Responsividade*/
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .planos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .carro{
+       margin: auto;
+       justify-content: space-between;
+    }
+    .basico, .intermediario,.luxo{
+        margin: 10px;
+    }
+    .basico>img{
+        width: 80%;
+        height: 80%;
+        
+    }
+    .intermediario>img{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+    }
+    .luxo>img{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+    .nosso-time{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .Nicole, .Mizael, .Giulia{
+        align-self: center;
+    }
+    .Nicole>h1,h3{
+        text-align: center;
+    }
+    .Mizael>h1,h3{
+        text-align: center;
+    }
+    .Giulia>h1,h3{
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .capa{
+        display: none;
+    }
+    .capa-mobile>img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-device-width:1200px) {
+    .capa-mobile{
+        display: none;
+    }
+}
